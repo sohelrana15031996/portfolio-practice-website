@@ -1,32 +1,40 @@
 /* Navigation Style Section */
-body{
+body {
   font-family: 'Open Sans', sans-serif;
 }
-nav{
+
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0 200px;
 }
-.primary-color{
+
+.primary-color {
   color: #FD6E0A
 }
-.nav-title{
+
+.nav-title {
   color: #181818;
   font-size: 45px;
   font-weight: 800;
 }
-nav>ul{
+
+nav>ul {
   display: flex;
   align-items: center;
 }
-nav li{
+
+nav li {
   list-style-type: none;
   margin: 50px;
 }
-li a{
+
+li a {
   text-decoration: none;
 }
-.hire{
+
+.hire {
   background-color: #FD6E0A;
   border: 0;
   border-radius: 5px;
@@ -34,4 +42,19 @@ li a{
   font-size: 20px;
   font-weight: 700;
   padding: 15px 35px;
+}
+
+/* Header styleing */
+.header {
+  background-color: #FFF8F3;
+}
+
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+  align-items: center;
+}
+
+.banner .image-hardy {
+  width: 500px;
 }
