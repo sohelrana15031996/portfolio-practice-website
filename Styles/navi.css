@@ -27,7 +27,7 @@ nav>ul {
 
 nav li {
   list-style-type: none;
-  margin: 50px;
+  margin: 40px;
 }
 
 li a {
@@ -47,14 +47,58 @@ li a {
 /* Header styleing */
 .header {
   background-color: #FFF8F3;
+  background-image: url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
 
 .banner {
-  padding: 30px 30px 30px 150px;
+  padding: 30px 30px 0px 150px;
   display: flex;
   align-items: center;
+}
+.banner-content{
+  max-width: 36.5625rem;
 }
 
 .banner .image-hardy {
   width: 500px;
+}
+.greeting{
+  font-size: 2.8125rem;
+  font-weight: 600;
+  color:#474747;
+  margin-bottom: 0;
+}
+.banner-title{
+  font-size: 5.3125rem;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+.banner-description{
+  margin-top: 1.25rem;
+  font-size: 1.125rem;font-weight: 400;
+  color: #757575;
+  
+  margin-bottom: 0;
+}
+.cc{
+  margin-top: 1.88rem;
+  width: 12.5rem;
+  height: 4rem;
+  margin-right: 2.94rem;
+  margin-left: 0;
+  
+}
+#btn{
+  display: flex;
+  align-items: center;
+}
+
+/* main section start from here */
+.about{
+  width: 71.25rem;
+  height: 34.375rem;
+  padding: 8.19;
 }
