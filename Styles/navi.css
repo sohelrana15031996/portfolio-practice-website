@@ -1,7 +1,15 @@
 /* Navigation Style Section */
-*{
+body{
   font-family: 'Open Sans', sans-serif;
 }
-.navigation{
+nav{
   display: flex;
+}
+.primary-color{
+  color: #FD6E0A
+}
+.nav-title{
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
