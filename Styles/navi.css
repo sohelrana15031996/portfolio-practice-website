@@ -1,0 +1,7 @@
+/* Navigation Style Section */
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+.navigation{
+  display: flex;
+}
